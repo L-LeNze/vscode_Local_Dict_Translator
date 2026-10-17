@@ -1,5 +1,9 @@
 # vscode_Local_Dict_Translator 
 
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)
+![VS Code](https://img.shields.io/badge/VS%20Code-%5E1.142.0-blue.svg)
+
 > 解释：基于vscode的一个本地词典翻译插件，专为算法备赛（CSP/蓝桥杯/洛谷）与四六级备考
 
 
@@ -39,10 +43,49 @@
   - 支持快捷键 `Ctrl+Alt+T` 主动翻译选中文本
   - 幽灵注释（Decoration）显示，打字时或换另一个词时自动消失
 
+  
 
+# 安装步骤：针对（vscode）
 
+1. 克隆仓库并安装依赖：
+   ```bash
+   git clone https://github.com/你的用户名/vscode_Local_Dict_Translator.git
+   cd vscode_Local_Dict_Translator
+   npm install
 
+2. 按`F5`或者运行启动扩展开发宿主窗口进行调试体验
+
+## 项目结构：
+
+```
+src/
+├── dicts/              # 核心本地词典库
+│   ├── algorithm.ts    # 算法与数据结构
+│   ├── cet4.ts         # 四六级词汇
+│   ├── cpp.ts          # C++ 语法与 STL
+│   ├── oj.ts           # 竞赛术语与黑话
+│   ├── problem.ts      # 英文题面词汇
+│   ├── variable.ts     # 变量命名全称
+│   └── index.ts        # 词典合并导出入口
+└── extension.ts        # 插件主逻辑与智能匹配算法
+```
 
 ## 词典拓展格式：
 
 `"中文释义": { en: "english_word", ipa: "[音标]" },`
+
+## 修改/提交历史：
+
+### 20261017   写出大致框架，并第一次上传github
+
+
+
+## 注意事项：
+
+- 本项目在开发过程中借助了 AI 辅助生成基础代码框架，但整体框架、智能功能、功能迭代均由作者设计并改进
+
+
+
+## 📄 开源协议
+
+[MIT License](https://license/)
