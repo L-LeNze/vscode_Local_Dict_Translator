@@ -49,7 +49,7 @@
 
 1. 克隆仓库并安装依赖：
    ```bash
-   git clone https://github.com/你的用户名/vscode_Local_Dict_Translator.git
+   git clone https://github.com/L-LeNze/vscode_Local_Dict_Translator.git
    cd vscode_Local_Dict_Translator
    npm install
 
@@ -76,7 +76,7 @@ src/
 
 ## 修改/提交历史：
 
-### 20261017   写出大致框架，并第一次上传github
+### 20261017   由 AI 辅助生成基础代码框架，并实现基本翻译功能，初始上传github
 
 
 
