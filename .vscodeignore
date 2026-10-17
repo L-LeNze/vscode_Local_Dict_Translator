@@ -9,3 +9,7 @@ vsc-extension-quickstart.md
 **/*.map
 **/*.ts
 **/.vscode-test.*
+
+# 下面是你需要手动补充的：
+convert.js
+*.vsix

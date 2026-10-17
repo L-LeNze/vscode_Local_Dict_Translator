@@ -2,7 +2,7 @@
   "name": "local-dict-translator",
   "displayName": "local_dict_translator",
   "description": "本地词典翻译与音标",
-  "version": "0.0.1",
+  "version": "0.0.2",              
   "publisher": "LeNze",
   "repository": {
     "type": "git",
