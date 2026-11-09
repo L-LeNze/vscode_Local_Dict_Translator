@@ -5,6 +5,7 @@ import { ojDict } from './oj';
 import { cet4Dict } from './cet4';
 import { varsDict } from './variable'; // 注意这里引入了新的 variable.ts
 import { problemDict } from './problem';
+import { mathDict } from './math';
 
 // 2. 合并所有词典
 export const dictData: Record<string, { en: string, ipa: string }> = {
@@ -14,4 +15,5 @@ export const dictData: Record<string, { en: string, ipa: string }> = {
   ...cet4Dict,
   ...varsDict, // 把新增的变量字典也展开合并进来
   ...problemDict,
+  ...mathDict,
 };
