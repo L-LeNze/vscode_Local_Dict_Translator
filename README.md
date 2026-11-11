@@ -72,6 +72,7 @@ src/
 │   ├── variable.ts     # 变量命名全称
 │   └── index.ts        # 词典合并导出入口
 └── extension.ts        # 插件主逻辑与智能匹配算法
+```
 
 ## 词典拓展格式：
 
